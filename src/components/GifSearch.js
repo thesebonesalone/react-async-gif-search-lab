@@ -9,7 +9,6 @@ export default class GifSearch extends Component {
         this.updateValue = this.updateValue.bind(this)
     }
     updateValue(e){
-        console.log(e.target.value)
         this.setState({
             value: e.target.value
         })
